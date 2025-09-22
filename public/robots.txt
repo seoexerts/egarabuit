@@ -1,0 +1,25 @@
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://egarabuit.com/sitemap.xml
+
+# Specific pages
+Allow: /
+Allow: /empresa
+Allow: /servicios
+Allow: /faq
+Allow: /contacto
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Additional directives
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
